@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Registration </title>
+        <link rel="stylesheet" href="reg.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Admin Registration</h1>
+            <form id="login-form" method="POST" action="adminreg.php" enctype="multipart/form-data">
+                <div class="user-details">
+                    <div class="input-box">
+                        <span class="details">Full Name:</span>
+                        <input type="text" placeholder="Fname" name = "fname" required>
+                    </div>
+                    <div class="input-box"><span><br></span>
+                        <input type="text" placeholder="Lname" name = "lname" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">E-mail:</span>
+                        <input type="email" placeholder="E-mail" name = "email" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Phone Number:</span>
+                        <input type="number" placeholder="Phone Number" name = "phone" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Address</span>
+                        <input type="text" placeholder="House name" name = "hname" required>
+                    </div>
+                    <div class="input-box">
+                        
+                        <span class="details"><br> </span>
+                        <input type="text" placeholder="City" name = "city" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="District" name = "district" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="State" name = "state" required>
+                    </div>
+                    <div class="input-box">
+                        <input type="number" placeholder="Pin code" name = "pin" required>
+                    </div>
+                    <div class="input-box">
+                         </div>
+                    <div class="input-box">
+                        <span class="details">Password:</span>
+                        <input type="password" placeholder="Password" name ="password" required>
+                    </div>
+                    
+                    <div class="input-box">
+                        <span class="details">Profil picture:</span>
+                        <input type="file" name="image" required placeholder="Select image"><br>
+                    </div>
+
+                  
+                </div>
+                
+                <div class="button">
+                    <input type="submit"  value="Register" name="submit">
+                </div>
+                <div class="log"><div class="log">Back to <a href="apanel.php">Admin Panel</a>  or  <a href="updatedatabase.php">Update Panel</a> </div><br>
+            </a>
+            </form>
+        </div>
+    </body>
+</html>
+
+
