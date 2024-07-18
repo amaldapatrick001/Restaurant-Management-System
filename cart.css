@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+td,th,table{
+    font-size: 1.5rem;
+    
+    transform: translateY(25%);
+}
+
+
+td,th{
+    border: 1px solid; 
+     border-color: black;
+background: #ffffff;
+}
+
+h1{
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+
